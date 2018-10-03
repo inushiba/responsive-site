@@ -5,6 +5,13 @@
 html {
   font-size: 62.5%; }
 
+header .top-icon {
+  background-images: url("./images/img_top_choco.jpg");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center; }
+
 body {
   color: #fff;
   font-size: 1.4rem;
@@ -127,7 +134,14 @@ footer {
 
 /*------------------------------------------------------------*/
 /*------------------------------------------------------------*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
+  header .top-icon {
+    background-images: url("./images/img_top_choco.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; }
+
   #pinks .container {
     -webkit-flex-direction: row;
     flex-direction: row;
